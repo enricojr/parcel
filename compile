@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ src/main.cpp src/classConfig.cpp src/classRandom.cpp src/classVolumeLogger.cpp src/classParcel.cpp src/classItem.cpp src/classItemSet.cpp -o bin/buildParcel
