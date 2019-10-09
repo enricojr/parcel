@@ -1,0 +1,314 @@
+=============================================================
+ Ncomp             Name      density(g/cm^3)  I(eV) ChFormula
+=============================================================
+4  G4_BENZYL_BUTYRYL_FENTANYL       1.099     0      C_22H_28N_2O
+                6             22
+                1             28
+                7              2
+                8              1
+4           G4_BENZYL_FENTANYL     1.1        0      C_21H_26N_2O
+                6             21
+                1             26
+                7              2
+                8              1
+4                G4_PHENACETIN     1.0        0      C_10H_13N_O2
+                6             10
+                1             13
+                7              1
+                8              2
+4                    G4_HEROIN     1.4        0      C_21H_23_NO_5
+                6             21
+                1             23
+                7              1
+                8              5
+5               G4_CARFENTANIL    1.2         0      C_16H_22CL_2N_2O
+                6             16
+                1             22
+                17             2
+                7              2
+                8              1
+4                  G4_COCAINE     1.2         0      C_14H_21_N_O4
+                6             14
+                1             21
+                7              1
+                8              4
+5                 G4_KETAMINE     1.2         0     C_13H_16Cl_N_O
+                6              13
+                1              16
+                17             1
+                7              1
+                8              1
+3           G4_METHAMPHETAMINE    0.9         0     C_10H_15_N
+                6              10
+                1              15
+                7              1
+5                   G4_U47700    1.2         0     C_16H_22Cl_2N_2O
+                6              16
+                1              22
+                17              2
+                7               2
+                8               1
+4                G4_NORFENTANYL   1.1         0     C_14H_20N_2_O
+                6              14
+                1              20
+                7               2
+                8               1
+4                G4_PETHIDINE     1.1          0    C_15H_21N_O_2
+                6               15
+                1               21
+                7               1
+                8               2
+3                 G4_GHB          1.1          0    C_4H_8O_3
+                6               4
+                1               8
+                8               3
+4                 G4_MDMA         1.1          0    C_11H_15N_O_2
+                                  6          11
+                                  1          15
+                                  7          1
+                                  8          2
+4                 G4_OXYCODONE    1.4          0    C_18H_21N_O_4
+                                  6          18
+                                  1          21
+                                  7          1
+                                  8          4
+4          G4_FURANYL_FENTANYL    1.1          0   C_24H_26N_2O_2
+                                 6          24
+                                 1           26
+                                 7           2
+                                 8           2
+4       G4_CYCLOPROPYL_FENTANYL   1.1          0   C_23H_28N_2O
+                                 6           23
+                                 1           28
+                                 7           2
+                                 8           1
+4     G4_METHOXYACETYL_FENTANYL     1.1        0  C_22H_28N_2O_2
+                                6            22
+                                1            28
+                                7            2
+                                8            2
+3                      G4_ANPP      1.1        0   C_19H_24N_2
+                                6            19
+                                1            24
+                                7            2
+3                       G4_NPP      1.1        0   C_10H_14N_2
+                                6            10
+                                1            14
+                                7            2
+5  G4_BENZYL_BUTYRYL_FENTANYL_HCL   1.099       0  C_22H_28N_2O.H_Cl
+                                6             22
+                                1             29
+                                7             2
+                                8             1
+                                17            1
+5        G4_BENZYL_FENTANYL_HCL   1.1           0  C_21H_26N_2O.H_CL
+                                6             21
+                                1             26
+                                7             2
+                                8             1
+                                17            1
+5                G4_HEROIN_HCL    1.4           0  C_21H_23_NO_5.HCL
+                                6             21
+                                1             23
+                                7             1
+                                8             5
+                                17            1
+5            G4_CARFENTANIL_HCL   1.2           0  C_16H_22CL_2N_2O
+                                6             16
+                                1             23
+                                17            3
+                                7             2
+                                8             1
+5              G4_COCAINE_HCL     1.2           0  C_14H_21_N_O4.HCL
+                                6            14
+                                1            22
+                                7             1
+                                8             4
+                                17            1
+5             G4_KETAMINE_HCL     1.2           0  C_13H_16Cl_N_O.HCL
+                                6             13
+                                1             17
+                                17            2
+                                7             1
+                                8             1
+5               G4_U47700_HCL    1.2           0  C_16H_22Cl_2N_2O.HCL
+                                6             16
+                                1             23
+                                17            3
+                                7             2
+                                8             1
+4               G4_GHB_Na         1.1          0  C_4H_8O_3.Na
+                                6             4
+                                1             8
+                                8             3
+                                11            1
+5             G4_MDMA_HCL         1.1           0  C_11H_15N_O_2.HCL
+                                6             11
+                                1             16
+                                7             1
+                                8             2
+                                17            1
+5             G4_OXYCODONE_HCL    1.4           0  C_18H_21N_O_4.HCL
+                                6             18
+                                1             22
+                                7             1
+                                8             4
+                                17            1
+5      G4_FURANYL_FENTANYL_HCL    1.1           0  C_24H_26N_2O_2.HCL
+                                6             24
+                                1             27
+                                7             2
+                                8             2
+                                17            1
+5   G4_CYCLOPROPYL_FENTANYL_HCL   1.1           0  C_23H_28N_2O.HCL
+                                6             23
+                                1             29
+                                7             2
+                                8             1
+                                17            1
+5   G4_METHOXYACETYL_FENTANYL_HCL 1.1           0  C_22H_28N_2O_2.HCL
+                                6             22
+                                1             29
+                                7             2
+                                8             2
+                                17            1
+4   G4_LSD                        1.2           0  C_20H_25_N3O
+                                6             20
+                                1             25
+                                7             3
+                                8             1
+3   G4_CBD                        1.0           0  C_21H_30O_2
+                                6             21
+                                1             30
+                                8             2
+3   G4_GBL                        1.1           0  C_4H_6O_2
+                                6             4
+                                1             6
+                                8             2
+3   G4_METHAMPHETAMINE            0.9           0  C_9H_13N
+                                6             9
+                                1             13
+                                7             1
+4   G4_DIHYDROCODEINE             1.3           0  C_18H_23N_O_3
+                                6             18
+                                1             23
+                                7             1
+                                8             3
+4   G4_TAPENTADOL                 1.0           0  C_14H_23N_O
+                                6             14
+                                1             23
+                                7             1
+                                8             1
+4   G4_TRAMADOL                   1.0           0  C_16H_25N_O_2
+                                6             16
+                                1             25
+                                7             1
+                                8             2
+5   G4_COCODAMOL                  1.0           0  C_26H_33N_2O_P9
+                                6             26
+                                1             33
+                                7             2
+                                8             1
+                                15            1
+3   G4_METANDIENONE               1.1           0  C_20H_28O_2
+                                6             20
+                                1             28
+                                8             2
+3   G4_OXYMETHOLONE               1.2           0  C_21H_32O_2
+                                6             21
+                                1             32
+                                8             2
+4   G4_STANAZOLOL                 1.1           0  C_21H_32N_2O
+                                6             21
+                                1             32
+                                7             2
+                                8             1
+3   G4_TESTOSTERONE               1.1           0  C_19H_28O_2
+                                6             19
+                                1             28
+                                8             2
+3   G4_TRENBOLONE                 1.2           0  C_18H_22O_2
+                                6             18
+                                1             22
+                                8             2
+4   G4_ALPRAZOLAM                 1.4           0  C_17H_13CL_N_4
+                                6             17
+                                1             13
+                                17            1
+                                7             4
+4   G4_AMBIEN                     1.1           0  C_19H_21N_3_O
+                                6             19
+                                1             21
+                                7             3
+                                8             1
+5   G4_ARMODAFINIL                1.3           0  C_15H_15N_O_2S
+                                6             15
+                                1             15
+                                7             1
+                                8             2
+                                16            1
+4   G4_CARISOPRODOL               1.1           0  C_12H_24N_2O_4
+                                6             12
+                                1             24
+                                7             2
+                                8             4
+5   G4_CLONAZEPAM                 1.5           0  C_15H_10CL_N_3O_3
+                                6             15
+                                1             10
+                                17            1
+                                7             3
+                                8             3
+5   G4_ESCITALOPRAM               1.2           0  C_20H_21F_N_2O
+                                6             20
+                                1             21
+                                9             1
+                                7             2
+                                8             1
+3   G4_ESCOPARONE                 1.2           0  C_11H_10O_4
+                                6             11
+                                1             10
+                                8             4
+5   G4_TIZANIDINE                 1.8           0  C_9H_8CL_N_5S
+                                6             9
+                                1             8
+                                17            1
+                                7             5
+                                16            1
+5   G4_VALIUM                     1.3           0  C_16H_13CL_N2O
+                                6             16
+                                1             13
+                                17            1
+                                7             2
+                                8             1
+5   G4_VIAGRA                     1.0           0  C_28H_38N_6O_11S
+                                6             28
+                                1             38
+                                7             6
+                                8             11
+                                16            1
+4   G4_XANAX                      1.4           0  C_17H_13Cl_N_4
+                                6             17
+                                1             13
+                                17            1
+                                7             4
+5   G4_CLENBUTEROL                1.3           0  C_12H_18Cl_2N_2O
+                                6             12
+                                1             18
+                                17            2
+                                7             2
+                                8             1
+4   G4_MESCALINE                  1.1           0  C_11H_17N_O_3
+                                6             11
+                                1             17
+                                7             1
+                                8             3
+4   G4_HYDROMORPHONE              1.4           0  C_17H_19N_O_3
+                                6             17
+                                1             19
+                                7             1
+                                8             3
+4   G4_HYDROCODONE                 1.3           0  C_18H_21N_O_3
+                                6             18
+                                1             21
+                                7             1
+                                8             3
