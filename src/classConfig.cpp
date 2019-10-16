@@ -311,7 +311,7 @@ void classConfig::buildSetup(ofstream &file){
   file << "type = box" << endl;
   file << "size = 10000mm 700mm" << endl;
   file << "thickness = 6mm" << endl;
-  file << "material = rubber" << endl;
+  file << "material = g4_titanium" << endl;
   file << "position = 0mm 0mm -353mm" << endl;
   file << "orientation = 0 0 0" << endl;
   file << "" << endl;    
