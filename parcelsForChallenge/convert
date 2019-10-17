@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd configs
+for file in *cfg; do
+    ../../bin/buildParcel $file "$(basename "$file" .cfg).conf" 1
+done
+cd ..

@@ -317,7 +317,7 @@ void classConfig::buildSetup(ofstream &file){
   file << "" << endl;
   file << "[support]" << endl;
   file << "type = box" << endl;
-  file << "size = 400mm 400mm" << endl;
+  file << "size = 200mm 200mm" << endl;
   file << "thickness = 6mm" << endl;
   file << "material = g4_light_steel" << endl;
   file << "position = 0mm 0mm -103mm" << endl;
@@ -328,7 +328,7 @@ void classConfig::buildSetup(ofstream &file){
   file << "size = 6mm 6mm" << endl;
   file << "thickness = 244mm" << endl;
   file << "material = steel" << endl;
-  file << "position = 200mm 200mm -228mm" << endl;
+  file << "position = 100mm 100mm -228mm" << endl;
   file << "orientation = 0 0 0" << endl;
   file << "" << endl;
   file << "[support_pillar2]" << endl;
@@ -336,7 +336,7 @@ void classConfig::buildSetup(ofstream &file){
   file << "size = 6mm 6mm" << endl;
   file << "thickness = 244mm" << endl;
   file << "material = steel" << endl;
-  file << "position = 200mm -200mm -228mm" << endl;
+  file << "position = 100mm -100mm -228mm" << endl;
   file << "orientation = 0 0 0" << endl;
   file << "" << endl;
   file << "[support_pillar3]" << endl;
@@ -344,7 +344,7 @@ void classConfig::buildSetup(ofstream &file){
   file << "size = 6mm 6mm" << endl;
   file << "thickness = 244mm" << endl;
   file << "material = steel" << endl;
-  file << "position = -200mm 200mm -228mm" << endl;
+  file << "position = -100mm 100mm -228mm" << endl;
   file << "orientation = 0 0 0" << endl;
   file << "" << endl;
   file << "[support_pillar4]" << endl;
@@ -352,7 +352,7 @@ void classConfig::buildSetup(ofstream &file){
   file << "size = 6mm 6mm" << endl;
   file << "thickness = 244mm" << endl;
   file << "material = steel" << endl;
-  file << "position = -200mm -200mm -228mm" << endl;
+  file << "position = -100mm -100mm -228mm" << endl;
   file << "orientation = 0 0 0" << endl;
   file << "" << endl;
 

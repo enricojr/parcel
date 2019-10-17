@@ -3,3 +3,4 @@ rm *~
 rm src/*~
 rm examples/*~
 rm -rf output/
+rm -rf parcelsForChallenge/*~
