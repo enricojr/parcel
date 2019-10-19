@@ -89,7 +89,7 @@ int parseMaterials(ofstream &fileOut, ofstream &fileOut2, ofstream &fileOut3, of
       fileOut << name << "->AddElement(" << getElement(Z) << ", " << nAtoms << ");" << endl;
     }
     fileOut << "materials_[\"" << name <<  "\"] = " << name << ";" << endl;
-    fileOut2 << "material.push_back(\"" << name << "\");" << endl;
+    fileOut2 << "density.push_back(" << density << ");  material.push_back(\"" << name << "\");" << endl;
     
     fileOut3 << "root -b << EOF" << endl;
     fileOut3 << ".L analyzeLoop.C++" << endl;

@@ -15,3 +15,5 @@ $ ./convert
 To generate parcels of pure materials of different amounts, run the following command:
 $ root -b -q generatePure.C
 The materials and amounts lists are defined in includes/parameters.hpp. The code also generates the shell script run.sh, with all the shell commands needed to run the simulation of all the generated setups. By default, each setup will be run for 1M events (or whatever number is hard-coded in generatePure.C). Each event is initialized with a randomly generated seed. To increase the statistics, re-generate all the configuration files, as new seeds need to be produced. CAREFUL!!! : this will overwrite the old configuration files. EVEN MORE CAREFUL!!! - running the run.sh script will overwrite the old raw data files.
+
+To set the priority level, edit PRIORITYLEVEL in includes/parameters.hpp
