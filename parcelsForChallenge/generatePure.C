@@ -114,7 +114,8 @@ int generatePure(){
 
   vector<string> material;
   vector<double> density;
-  parameters::getMaterials(material, density);
+  vector<string> type;
+  parameters::getMaterials(material, density, type);
 
   vector<double> quantity;
   parameters::getQuantity(quantity);
