@@ -7,11 +7,17 @@ namespace parameters{
   const string ALLPIX2PATH = "/home/dynaxion-rt/software/allpix-squared/bin/";
   const string RUNPATH = "/home/dynaxion-rt/software/parcel/parcelsForChallenge/";
   const string RAWDATAPUREPATH = "/home/dynaxion-rt/simulation/output/loop-challenge/pure/";
+  const string SPECTRAFILENAME = "/home/dynaxion-rt/simulation/output/loop-challenge-spectra/pureSpectra.root";
   const double PARCELSIZEX = 20.0;
   const double PARCELSIZEY = 10.0;
   const double PARCELSIZEZ = 4.2;
   const double PARCELTOSOURCEDISTANCE = 5.0;
   const unsigned int PRIORITYLEVEL = 2; // 0 = highest priority, 1 = adding more drugs, 2 = completing the explosives, 5 = completing the fentanyl family, 4 = adding some random mixes, 3 = adding some drugs, 6 = adding some random mixes, 7 = adding some harmless material, 8 = adding all drugs, 9 = adding all harmless materials, 10 = all
+  const double TIMINGCUT = 100.; // timing cut (in ns) to ddistinguish between neutron capture and inelastic scattering
+  const double ENERGYMIN = 0.;
+  const double ENERGYMAX = 12.;
+  const unsigned int ENERGYBINDENSITY = 100; // number of bins per MeV
+  const unsigned int ENERGYNBINS = ENERGYBINDENSITY * (ENERGYMAX - ENERGYMIN);
   
   /***************//***************//***************//***************/
   /***************//***************//***************//***************/
@@ -225,6 +231,38 @@ namespace parameters{
   string getFileNamePureRawData(const string material,
 				const string quantity){
     return RAWDATAPUREPATH + "material_" + material + "_" + quantity + "g.root";
+  }
+  
+  /***************//***************//***************//***************/
+  /***************//***************//***************//***************/
+
+  string getHistNameCapture(const string material,
+			    const string quantity){
+    return "material_" + material + "_" + quantity + "g_capture";
+  }
+  
+  /***************//***************//***************//***************/
+  /***************//***************//***************//***************/
+
+  string getHistTitleCapture(const string material,
+			     const string quantity){
+    return material + ", " + quantity + "g, capture";
+  }
+  
+  /***************//***************//***************//***************/
+  /***************//***************//***************//***************/
+
+  string getHistNameInelastic(const string material,
+			      const string quantity){
+    return "material_" + material + "_" + quantity + "g_inelastic";
+  }
+  
+  /***************//***************//***************//***************/
+  /***************//***************//***************//***************/
+
+  string getHistTitleInelastic(const string material,
+			       const string quantity){
+    return material + ", " + quantity + "g, inelastic";
   }
   
 }
