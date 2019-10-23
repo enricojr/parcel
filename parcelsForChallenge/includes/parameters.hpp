@@ -267,6 +267,28 @@ namespace parameters{
     return material + ", " + quantity + "g, inelastic";
   }
   
+  /***************//***************//***************//***************/
+  /***************//***************//***************//***************/
+
+  bool isDrug(const string material,
+	      const bool includeMixes = false){
+    vector<string> materialList;
+    vector<double> density;
+    vector<string> type;
+    getMaterials(materialList, density, type);
+    for(unsigned int i=0; i<materialList.size(); i++){
+      if(materialList[i] == material){
+	if(type[i] == "drug") return true;
+	else{
+	  if(!includeMixes) return false;
+	  else if(type[i] == "mix") return true;
+	  else return false;
+	}
+      }
+    }
+    return false;
+  }
+
 }
 
 #endif
