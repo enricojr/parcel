@@ -204,9 +204,9 @@ bool classParcel::build(ofstream &file) const{
   file << "material = " << material_ << endl;
   file << "size = "
        << size_[0] << "mm "
-       << size_[1] << "mm"
+       << size_[1] << "mm "
+       << size_[2] << "mm"
        << endl;
-  file << "thickness = " << size_[2] << "mm" << endl;
   file << "position = "
        << position_[0] << "mm "
        << position_[1] << "mm "
@@ -252,8 +252,8 @@ bool classParcel::buildWrap(ofstream &file) const{
     file << "size = "
 	 << effectiveParcelSize[0]+2*wrapThickness_[i] << "mm "
 	 << effectiveParcelSize[1]+2*wrapThickness_[i] << "mm "
+	 << wrapThickness_[i] << "mm"
 	 << endl;
-    file << "thickness = " << wrapThickness_[i] << "mm" << endl;
     file << "position = "
 	 << position_[0] << "mm "
       	 << position_[1] << "mm "
@@ -268,8 +268,8 @@ bool classParcel::buildWrap(ofstream &file) const{
     file << "size = "
 	 << effectiveParcelSize[0]+2*wrapThickness_[i] << "mm "
 	 << effectiveParcelSize[1]+2*wrapThickness_[i] << "mm "
+	 << wrapThickness_[i] << "mm"
 	 << endl;
-    file << "thickness = " << wrapThickness_[i] << "mm" << endl;
     file << "position = "
 	 << position_[0] << "mm "
       	 << position_[1] << "mm "
@@ -284,8 +284,8 @@ bool classParcel::buildWrap(ofstream &file) const{
     file << "size = "
 	 << effectiveParcelSize[0]+2*wrapThickness_[i] << "mm "
 	 << wrapThickness_[i] << "mm "
-	 << endl;
-    file << "thickness = " << effectiveParcelSize[2] << "mm" << endl;
+	 << effectiveParcelSize[2] << "mm"
+      	 << endl;
     file << "position = "
 	 << position_[0] << "mm "
       	 << position_[1] + 0.5 * effectiveParcelSize[1] + 0.5 * wrapThickness_[i] << "mm "
@@ -300,8 +300,8 @@ bool classParcel::buildWrap(ofstream &file) const{
     file << "size = "
 	 << effectiveParcelSize[0]+2*wrapThickness_[i] << "mm "
 	 << wrapThickness_[i] << "mm "
+	 << effectiveParcelSize[2] << "mm"
 	 << endl;
-    file << "thickness = " << effectiveParcelSize[2] << "mm" << endl;
     file << "position = "
 	 << position_[0] << "mm "
       	 << position_[1] - 0.5 * effectiveParcelSize[1] - 0.5 * wrapThickness_[i] << "mm "
@@ -316,8 +316,8 @@ bool classParcel::buildWrap(ofstream &file) const{
     file << "size = "
 	 << wrapThickness_[i] << "mm "
 	 << effectiveParcelSize[1] << "mm "
+	 << effectiveParcelSize[2] << "mm"
 	 << endl;
-    file << "thickness = " << effectiveParcelSize[2] << "mm" << endl;
     file << "position = "
       	 << position_[0] + 0.5 * effectiveParcelSize[0] + 0.5 * wrapThickness_[i] << "mm "
 	 << position_[1] << "mm "
@@ -332,8 +332,8 @@ bool classParcel::buildWrap(ofstream &file) const{
     file << "size = "
 	 << wrapThickness_[i] << "mm "
 	 << effectiveParcelSize[1] << "mm "
+	 << effectiveParcelSize[2] << "mm"
 	 << endl;
-    file << "thickness = " << effectiveParcelSize[2] << "mm" << endl;
     file << "position = "
       	 << position_[0] - 0.5 * effectiveParcelSize[0]- 0.5 * wrapThickness_[i] << "mm "
 	 << position_[1] << "mm "
