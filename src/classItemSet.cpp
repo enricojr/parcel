@@ -416,7 +416,7 @@ bool classItemSet::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << effectiveItemSetSize[0]+2*wrapThickness_[i] << "mm "
 	 << effectiveItemSetSize[1]+2*wrapThickness_[i] << "mm "
 	 << wrapThickness_[i] << "mm"
@@ -433,7 +433,7 @@ bool classItemSet::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << effectiveItemSetSize[0]+2*wrapThickness_[i] << "mm "
 	 << effectiveItemSetSize[1]+2*wrapThickness_[i] << "mm "
 	 << wrapThickness_[i] << "mm"
@@ -450,7 +450,7 @@ bool classItemSet::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << effectiveItemSetSize[0]+2*wrapThickness_[i] << "mm "
 	 << wrapThickness_[i] << "mm "
 	 << effectiveItemSetSize[2] << "mm"
@@ -467,7 +467,7 @@ bool classItemSet::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << effectiveItemSetSize[0]+2*wrapThickness_[i] << "mm "
 	 << wrapThickness_[i] << "mm "
 	 << effectiveItemSetSize[2] << "mm"
@@ -484,7 +484,7 @@ bool classItemSet::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << wrapThickness_[i] << "mm "
 	 << effectiveItemSetSize[1] << "mm "
 	 << effectiveItemSetSize[2] << "mm"
@@ -501,7 +501,7 @@ bool classItemSet::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << wrapThickness_[i] << "mm "
 	 << effectiveItemSetSize[1] << "mm "
 	 << effectiveItemSetSize[2] << "mm"

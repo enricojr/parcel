@@ -407,7 +407,7 @@ bool classItem::build(ofstream &file,
   file << "type = box" << endl;
   file << "material = " << material_ << endl;
   file << "mother_volume = " << parcelName << "_log" << endl;
-  file << "pill_size = "
+  file << "size = "
        << size_[0] << "mm "
        << size_[1] << "mm "
        << size_[2] << "mm"
@@ -456,7 +456,7 @@ bool classItem::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << effectiveItemSize[0]+2*wrapThickness_[i] << "mm "
 	 << effectiveItemSize[1]+2*wrapThickness_[i] << "mm "
 	 << wrapThickness_[i] << "mm"
@@ -473,7 +473,7 @@ bool classItem::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << effectiveItemSize[0]+2*wrapThickness_[i] << "mm "
 	 << effectiveItemSize[1]+2*wrapThickness_[i] << "mm "
 	 << wrapThickness_[i] << "mm"
@@ -490,7 +490,7 @@ bool classItem::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << effectiveItemSize[0]+2*wrapThickness_[i] << "mm "
 	 << wrapThickness_[i] << "mm "
 	 << effectiveItemSize[2] << "mm"
@@ -507,7 +507,7 @@ bool classItem::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << effectiveItemSize[0]+2*wrapThickness_[i] << "mm "
 	 << wrapThickness_[i] << "mm "
 	 << effectiveItemSize[2] << "mm"
@@ -524,7 +524,7 @@ bool classItem::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << wrapThickness_[i] << "mm "
 	 << effectiveItemSize[1] << "mm "
 	 << effectiveItemSize[2] << "mm"
@@ -541,7 +541,7 @@ bool classItem::buildWrap(ofstream &file,
     file << "type = box" << endl;
     file << "material = " << wrapMaterial_[i] << endl;
     file << "mother_volume = " << parcelName << "_log" << endl;
-    file << "pill_size = "
+    file << "size = "
 	 << wrapThickness_[i] << "mm "
 	 << effectiveItemSize[1] << "mm "
 	 << effectiveItemSize[2] << "mm"
