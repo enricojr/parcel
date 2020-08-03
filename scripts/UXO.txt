@@ -1,0 +1,97 @@
+=============================================================
+ Ncomp             Name      density(g/cm^3)  I(eV) ChFormula
+=============================================================
+2	arsenic_butter	       2.16     0      As_Cl3
+                33             1
+                17             3
+4	bromoacetone   		1.6     	0	C3_H5_Br_O    
+		6		3
+		1		5
+		35		1
+		8		1              
+3	chlorobenzene		1.1	0	C6_H5_Cl
+		6		6
+		1		5
+		17		1	
+4	chloropicrin		1.66	0	C_Cl3_N_O2
+		6		1
+		17		3
+		7		1
+		8		2
+4	chlorosulfuric_acid	1.753		Cl_H_O3_S
+		17		1
+		1		1
+		8		3
+		16		1
+4	clark_1			1	0	C12_H10_As_Cl
+		6		12
+		1		10
+		33		1
+		17		1
+4	clark_2			1	0	C12_H10_As_C_N
+		6		13	
+		1		10
+		33		1
+		7		1
+4	ethylarsonous_dibromide	1	0	C2_H5_As_Br2
+		6		2
+		1		5
+		33		1
+		35		2
+4	Dichloordimethylether	1.21	0	C2_H4_Cl2_O
+		6		2
+		1		4
+		17		2
+		8		0
+4	Dichloroethylarsine	1	0	C2_H5_As_Cl2
+		6		2
+		1		5
+		33		1
+		17		2
+3	G_1_4_diethaan		1	0	C4_H8_S2
+		6		4
+		1		8
+		16		1
+3	ethanol			0.79	0	C2_H6_O
+		6		2
+		1		6
+		8		1
+3	oxobutanol		1.02	0	C4_H8_O2
+		6		4
+		1		8
+		8		2
+4	fenylcarbylaminechloride	1.3	0	C7_H5_Cl2_N
+		6		7
+		1		5
+		17		2
+		7		1
+3	phosgene			1.43	0	C_Cl2_O
+		6		1
+		17		2
+		8		1
+4	joodethylacetaat	1.8	0	C4_H7_I_O2
+		6		4
+		1		7
+		53		1
+		8		2
+4	mostergas		1.28	0	C4_H8_Cl2_S
+		6		4
+		1		8
+		17		2
+		16		1
+3	naftaleendiamine	1.4	0	C10_H10_N2
+		6		10
+		1		10
+		7		2
+4	nitrobenzeen		1.2	0	C6_H5_N_O2
+		6		6
+		1		5
+		7		1
+		8		2
+2	tintetrachloride	2.2	0	SnCl4
+		50		1
+		17		4
+3	hydrogencyanide		1	0	HCN
+		1		1
+		6		1
+		7		1

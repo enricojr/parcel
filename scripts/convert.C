@@ -30,6 +30,10 @@ string getElement(const unsigned int Z){
   if(Z==25) return "Mn";
   if(Z==26) return "Fe";
   if(Z==27) return "Co";
+  if(Z==33) return "As";
+  if(Z==35) return "Br";
+  if(Z==50) return "50";
+  if(Z==53) return "I";
   if(Z==73) return "Ta";
   else{
     cout << "WARNING!!! ADD NEW ELEMENT TO THE DATABASE, WITH Z = " << Z << endl;
@@ -198,6 +202,7 @@ int convert(){
   fileName.push_back(pair<string, string> ("Drugs_Library.txt", "DRUGS"));
   fileName.push_back(pair<string, string> ("Explosives_Library.txt", "EXPLOSIVES"));
   fileName.push_back(pair<string, string> ("Other_library.txt", "OTHERS"));
+  fileName.push_back(pair<string, string> ("UXO.txt", "UXO"));
 
   ofstream fileOut("commands.txt");
   ofstream fileOut2("commands2.txt");
