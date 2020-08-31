@@ -34,7 +34,12 @@ string getElement(const unsigned int Z){
   if(Z==35) return "Br";
   if(Z==50) return "50";
   if(Z==53) return "I";
+  if(Z==56) return "Ba";
   if(Z==73) return "Ta";
+  if(Z==82) return "Pb";
+  if(Z==83) return "Bi";
+  if(Z==1010) return "B10";
+  if(Z==1011) return "B11";
   else{
     cout << "WARNING!!! ADD NEW ELEMENT TO THE DATABASE, WITH Z = " << Z << endl;
     return "";
@@ -199,11 +204,15 @@ void makeElements(ofstream &file){
 int convert(){
 
   vector<pair<string, string> > fileName;
-  fileName.push_back(pair<string, string> ("Drugs_Library.txt", "DRUGS"));
-  fileName.push_back(pair<string, string> ("Explosives_Library.txt", "EXPLOSIVES"));
-  fileName.push_back(pair<string, string> ("Other_library.txt", "OTHERS"));
-  fileName.push_back(pair<string, string> ("UXO.txt", "UXO"));
-
+  //  fileName.push_back(pair<string, string> ("Drugs_Library.txt", "DRUGS"));
+  //  fileName.push_back(pair<string, string> ("Explosives_Library.txt", "EXPLOSIVES"));
+  //  fileName.push_back(pair<string, string> ("Other_library.txt", "OTHERS"));
+  //  fileName.push_back(pair<string, string> ("UXO.txt", "UXO"));
+  fileName.push_back(pair<string, string> ("Explosives_Libraryv2.txt", "EXPLOSIVES")); // new from 2020-08-29 after bug fix
+  fileName.push_back(pair<string, string> ("Other_libraryv2.txt", "OTHERS")); // new from 2020-08-29 after bug fix
+  //  fileName.push_back(pair<string, string> ("Shielding_Materialsv2.txt", "SHIELDING"));
+  fileName.push_back(pair<string, string> ("Shielding_Materialsv3.txt", "SHIELDING"));
+  
   ofstream fileOut("commands.txt");
   ofstream fileOut2("commands2.txt");
   ofstream fileOut3("../standalone/templates/analysis/loopMaterials");
