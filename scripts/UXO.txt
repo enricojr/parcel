@@ -1,97 +1,130 @@
 =============================================================
  Ncomp             Name      density(g/cm^3)  I(eV) ChFormula
 =============================================================
-2	arsenic_butter	       2.16     0      As_Cl3
+2	g4_arsenic_butter	       2.16     0      As_Cl3
                 33             1
                 17             3
-4	bromoacetone   		1.6     	0	C3_H5_Br_O    
+4	g4_bromoacetone   		1.6     	0	C3_H5_Br_O    
 		6		3
 		1		5
 		35		1
 		8		1              
-3	chlorobenzene		1.1	0	C6_H5_Cl
+3	g4_chlorobenzene		1.1	0	C6_H5_Cl
 		6		6
 		1		5
 		17		1	
-4	chloropicrin		1.66	0	C_Cl3_N_O2
+4	g4_chloropicrin		1.66	0	C_Cl3_N_O2
 		6		1
 		17		3
 		7		1
 		8		2
-4	chlorosulfuric_acid	1.753		Cl_H_O3_S
+4	g4_chlorosulfuric_acid	1.753		Cl_H_O3_S
 		17		1
 		1		1
 		8		3
 		16		1
-4	clark_1			1	0	C12_H10_As_Cl
+4	g4_clark_1			1	0	C12_H10_As_Cl
 		6		12
 		1		10
 		33		1
 		17		1
-4	clark_2			1	0	C12_H10_As_C_N
+4	g4_clark_2			1	0	C12_H10_As_C_N
 		6		13	
 		1		10
 		33		1
 		7		1
-4	ethylarsonous_dibromide	1	0	C2_H5_As_Br2
+4	g4_ethylarsonous_dibromide	1	0	C2_H5_As_Br2
 		6		2
 		1		5
 		33		1
 		35		2
-4	Dichloordimethylether	1.21	0	C2_H4_Cl2_O
+4	g4_Dichloordimethylether	1.21	0	C2_H4_Cl2_O
 		6		2
 		1		4
 		17		2
 		8		0
-4	Dichloroethylarsine	1	0	C2_H5_As_Cl2
+4	g4_Dichloroethylarsine	1	0	C2_H5_As_Cl2
 		6		2
 		1		5
 		33		1
 		17		2
-3	G_1_4_diethaan		1	0	C4_H8_S2
+3	g4_G_1_4_diethaan		1	0	C4_H8_S2
 		6		4
 		1		8
 		16		1
-3	ethanol			0.79	0	C2_H6_O
+3	g4_ethanol			0.79	0	C2_H6_O
 		6		2
 		1		6
 		8		1
-3	oxobutanol		1.02	0	C4_H8_O2
+3	g4_oxobutanol		1.02	0	C4_H8_O2
 		6		4
 		1		8
 		8		2
-4	fenylcarbylaminechloride	1.3	0	C7_H5_Cl2_N
+4	g4_fenylcarbylaminechloride	1.3	0	C7_H5_Cl2_N
 		6		7
 		1		5
 		17		2
 		7		1
-3	phosgene			1.43	0	C_Cl2_O
+3	g4_phosgene			1.43	0	C_Cl2_O
 		6		1
 		17		2
 		8		1
-4	joodethylacetaat	1.8	0	C4_H7_I_O2
+4	g4_joodethylacetaat	1.8	0	C4_H7_I_O2
 		6		4
 		1		7
 		53		1
 		8		2
-4	mostergas		1.28	0	C4_H8_Cl2_S
+4	g4_mostergas		1.28	0	C4_H8_Cl2_S
 		6		4
 		1		8
 		17		2
 		16		1
-3	naftaleendiamine	1.4	0	C10_H10_N2
+3	g4_naftaleendiamine	1.4	0	C10_H10_N2
 		6		10
 		1		10
 		7		2
-4	nitrobenzeen		1.2	0	C6_H5_N_O2
+4	g4_nitrobenzeen		1.2	0	C6_H5_N_O2
 		6		6
 		1		5
 		7		1
 		8		2
-2	tintetrachloride	2.2	0	SnCl4
+2	g4_tintetrachloride	2.2	0	SnCl4
 		50		1
 		17		4
-3	hydrogencyanide		1	0	HCN
+3	g4_hydrogencyanide		1	0	HCN
 		1		1
 		6		1
 		7		1
+6	g4_Clark1_TNT_mix	1.55	0	
+		6		0.419
+		1		0.0267
+		8		0.3043
+		7		0.1332
+		33		0.0793
+		17		0.0375
+5	g4_Clark2_TNT_mix	1.55	0	
+		6		0.4378
+		1		0.0271
+		8		0.3043
+		7		0.1486
+		33		0.0822
+5	g4_HCN_Asbut_mix		2	0
+		6		0.0666
+		1		0.0056
+		7		0.0778
+		33		0.3513
+		17		0.4987
+3	g4_Diphosgene	1.45	0 ClCO2CCl3
+		17		4
+		6		2
+		8		2
+5 	g4_greencross	1.1	0
+		6		0.1849
+		1		0.0057
+		8		0.1375
+		33		0.0425
+		17		0.6294
+1	g4_Chlorine_gas		0.00321		0
+		17		2
+1	g4_Chlorine_liquid	1.468		0
+		17		2
