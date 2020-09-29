@@ -207,12 +207,13 @@ int convert(){
   //  fileName.push_back(pair<string, string> ("Drugs_Library.txt", "DRUGS"));
   //  fileName.push_back(pair<string, string> ("Explosives_Library.txt", "EXPLOSIVES"));
   //  fileName.push_back(pair<string, string> ("Other_library.txt", "OTHERS"));
-  fileName.push_back(pair<string, string> ("UXO.txt", "UXO"));
+  //  fileName.push_back(pair<string, string> ("UXO.txt", "UXO"));
   //  fileName.push_back(pair<string, string> ("Explosives_Libraryv2.txt", "EXPLOSIVES")); // new from 2020-08-29 after bug fix
   //  fileName.push_back(pair<string, string> ("Other_libraryv2.txt", "OTHERS")); // new from 2020-08-29 after bug fix
   //  fileName.push_back(pair<string, string> ("Shielding_Materialsv2.txt", "SHIELDING"));
   //  fileName.push_back(pair<string, string> ("Shielding_Materialsv3.txt", "SHIELDING"));
   //  fileName.push_back(pair<string, string> ("Shielding_Materialsv4.txt", "SHIELDING"));
+  fileName.push_back(pair<string, string> ("Steels.txt", "STEELS"));
   
   ofstream fileOut("commands.txt");
   ofstream fileOut2("commands2.txt");
