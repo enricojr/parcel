@@ -30,9 +30,11 @@ string getElement(const unsigned int Z){
   if(Z==25) return "Mn";
   if(Z==26) return "Fe";
   if(Z==27) return "Co";
+  if(Z==28) return "Ni";
   if(Z==33) return "As";
   if(Z==35) return "Br";
-  if(Z==50) return "50";
+  if(Z==42) return "Mo";
+  if(Z==50) return "Sn";
   if(Z==53) return "I";
   if(Z==56) return "Ba";
   if(Z==73) return "Ta";
@@ -213,7 +215,8 @@ int convert(){
   //  fileName.push_back(pair<string, string> ("Shielding_Materialsv2.txt", "SHIELDING"));
   //  fileName.push_back(pair<string, string> ("Shielding_Materialsv3.txt", "SHIELDING"));
   //  fileName.push_back(pair<string, string> ("Shielding_Materialsv4.txt", "SHIELDING"));
-  fileName.push_back(pair<string, string> ("Steels.txt", "STEELS"));
+  //  fileName.push_back(pair<string, string> ("Steels.txt", "STEELS"));
+  fileName.push_back(pair<string, string> ("Starfire.txt", "STARFIRE"));
   
   ofstream fileOut("commands.txt");
   ofstream fileOut2("commands2.txt");
