@@ -216,7 +216,8 @@ int convert(){
   //  fileName.push_back(pair<string, string> ("Shielding_Materialsv3.txt", "SHIELDING"));
   //  fileName.push_back(pair<string, string> ("Shielding_Materialsv4.txt", "SHIELDING"));
   //  fileName.push_back(pair<string, string> ("Steels.txt", "STEELS"));
-  fileName.push_back(pair<string, string> ("Starfire.txt", "STARFIRE"));
+  //  fileName.push_back(pair<string, string> ("Starfire.txt", "STARFIRE"));
+  fileName.push_back(pair<string, string> ("Showergel.txt", "OTHERS"));
   
   ofstream fileOut("commands.txt");
   ofstream fileOut2("commands2.txt");
