@@ -1,0 +1,5 @@
+New densities:
+
+g4_office_paper: 0.53 g/cm^3
+g4_cellulose_cotton: 0.25 g/cm^3
+

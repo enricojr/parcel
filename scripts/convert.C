@@ -278,7 +278,13 @@ int convert(){
   // fileName.push_back(pair<string, string> ("Steels.txt", "STEELS"));
   // fileName.push_back(pair<string, string> ("Starfire.txt", "STARFIRE"));
   //  fileName.push_back(pair<string, string> ("Showergel.txt", "OTHERS"));
-  fileName.push_back(pair<string, string> ("BasaltSoil.txt", "SOIL"));
+  //  fileName.push_back(pair<string, string> ("BasaltSoil.txt", "SOIL"));
+  fileName.push_back(pair<string, string> ("Milk.txt", ""));
+  fileName.push_back(pair<string, string> ("Glucose.txt", ""));
+  fileName.push_back(pair<string, string> ("Flour.txt", ""));
+  fileName.push_back(pair<string, string> ("Cookies.txt", ""));
+  fileName.push_back(pair<string, string> ("Chocolate.txt", ""));
+  fileName.push_back(pair<string, string> ("Butter.txt", ""));
   
   ofstream fileOut("commands.txt");
   ofstream fileOut2("commands2.txt");
