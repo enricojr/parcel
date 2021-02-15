@@ -31,6 +31,7 @@ string getElement(const unsigned int Z){
   if(Z==26) return "Fe";
   if(Z==27) return "Co";
   if(Z==28) return "Ni";
+  if(Z==29) return "Cu";
   if(Z==33) return "As";
   if(Z==35) return "Br";
   if(Z==42) return "Mo";
@@ -81,6 +82,7 @@ double getMass(const unsigned int Z){
   if(Z==26) return 55.845;
   if(Z==27) return 58.933;
   if(Z==28) return 58.693;
+  if(Z==29) return 63.546;
   if(Z==33) return 74.922;
   if(Z==35) return 79.904;
   if(Z==42) return 95.95;
@@ -285,7 +287,9 @@ int convert(){
   // fileName.push_back(pair<string, string> ("Cookies.txt", ""));
   // fileName.push_back(pair<string, string> ("Chocolate.txt", ""));
   // fileName.push_back(pair<string, string> ("Butter.txt", ""));
-  fileName.push_back(pair<string, string> ("Update_Feb2021.txt", ""));
+  // fileName.push_back(pair<string, string> ("Update_Feb2021.txt", ""));
+  // fileName.push_back(pair<string, string> ("Cake.txt", ""));
+  fileName.push_back(pair<string, string> ("Cell_18650.txt", ""));
   
   ofstream fileOut("commands.txt");
   ofstream fileOut2("commands2.txt");
